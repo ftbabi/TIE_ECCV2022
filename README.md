@@ -1,6 +1,6 @@
 # Transformer with Implicit Edges for Particle-based Physics Simulation (ECCV 2022)
 
-\[[Paper](https://github.com/ftbabi/TIE_ECCV2022.git)\]
+\[[Paper](http://arxiv.org/abs/2207.10860)\] | \[[Project](https://www.mmlab-ntu.com/project/tie/index.html)\]
 
 This is the official repository of "Transformer with Implicit Edges for Particle-based Physics Simulation, ECCV 2022". This repository contains *codes*, *pretrained models*, and *video demos* of our work.
 
@@ -11,6 +11,7 @@ This is the official repository of "Transformer with Implicit Edges for Particle
 **Feel free to ask questions. I am currently working on some other stuff but will try my best to reply. Please don't hesitate to star!** 
 
 ## News
+- 25 July 2022: Paper and project page are available now
 - 19 July 2022: Training, test, and rendering codes released
 
 ## Table of Content
@@ -20,7 +21,10 @@ This is the official repository of "Transformer with Implicit Edges for Particle
 4. [Citations](#citations)
 
 ## Video Demos
-Coming soon.
+![](imgs/demo.gif)
+
+Here we display an example rollout on *BoxBath* domain. 
+Please refer to our [project page](https://www.mmlab-ntu.com/project/tie/index.html) for more details.
 
 ## Dataset
 Please follow [this repo](https://github.com/YunzhuLi/DPI-Net.git) to generate your own dataset.
