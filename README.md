@@ -11,6 +11,7 @@ This is the official repository of "Transformer with Implicit Edges for Particle
 **Feel free to ask questions. I am currently working on some other stuff but will try my best to reply. Please don't hesitate to star!** 
 
 ## News
+- 6 October 2022: Add demo examples
 - 25 July 2022: Paper and project page are available now
 - 19 July 2022: Training, test, and rendering codes released
 
@@ -62,6 +63,8 @@ conda install pybind11==2.7.0  # This is for rendering
 ```
 
 ### Training
+**Please update the variable `dataf` in corresponding dataset's config `configs/_base_/datasets/xxx.py` to your data path.**
+
 1. Train on slurm system
 ```
 ./tools/slurm_train.sh {PARTITION} {JOB_NAME} {CONFIG} {WORK_DIR} # please refer to `tools/slurm_train.sh for more details
