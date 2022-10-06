@@ -22,10 +22,10 @@ from sim.models import build_simulator
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument('config', default=None)
+    parser.add_argument('work_dir', help='the dir to save logs and models')
     parser.add_argument('--val_rollout', type=int, default=-1)
     parser.add_argument('--tar_rollout', type=int, default=-1)
-    parser.add_argument('--work_dir', help='the dir to save logs and models')
-    parser.add_argument('--config', default=None)
     parser.add_argument('--checkpoint', type=str, default=None)
     parser.add_argument('--debug', type=int, default=0)
     parser.add_argument(
